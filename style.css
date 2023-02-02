@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.first-section {
+    background: #27323E;
+}
+
+.first-section .navbar {
+    margin-top: 10px;
+    background: #27323E;
+    display: flex !important;
+    position: unset;
+}
+
+.navbar-toggler {
+    background: linear-gradient(108.7deg, #FC4A1A -29.1%, #F7B733 97.76%) !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border: none !important;
+}
+
+
+/* home page */
+
+.homesection {
+    padding-top: 100px;
+}
+
+.homesection .home {
+    margin-top: 80px;
+}
+
+.head {
+    width: 134px;
+    height: 54px;
+    background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    border-radius: 40px 40px 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head p {
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.body h2 {
+    font-weight: 700;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.body p {
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.body .social-icons {
+    display: flex;
+}
+
+.body .social-icons .icons {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downlodbtn {
+    margin-top: 27px;
+    background: linear-gradient(108.35deg, #FC4A1A -36.03%, #F7B733 128.44%);
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+}
+
+.downlodbtn a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.home-img {
+    display: flex;
+    justify-content: end;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.text .onoff {
+    width: 44.97px;
+    height: 77px;
+    background-color: transparent;
+    border: 1px solid orangered;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.text .onoff .dot {
+    margin-top: 10px;
+    width: 12.95px;
+    height: 12.95px;
+    background: linear-gradient(108.7deg, #FC4A1A -29.1%, #F7B733 97.76%);
+    border-radius: 50%;
+}
